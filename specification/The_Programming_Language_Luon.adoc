@@ -388,14 +388,14 @@ The basic types are denoted by predeclared identifiers. The associated operators
 
 The values of the given basic types are the following:
 
-[cols="2,1,5"]
+[cols="2,5"]
 |====================================================
-| BOOLEAN   |  the truth values true and false
-| BYTE   	|  the integers between 0 and 255
-| CHAR      |  the characters of the Latin-1 set (0x .. 0ffx)
+| BOOLEAN   | the truth values true and false
+| BYTE      | the integers between 0 and 255
+| CHAR      | the characters of the Latin-1 set (0x .. 0ffx)
 | INTEGER   | the integers between MIN(INTEGER) and MAX(INTEGER)
-| REAL  	|  an IEEE 754 floating point number
-| SET       |  the sets of integers between 0 and MAX(SET)
+| REAL      | an IEEE 754 floating point number
+| SET       | the sets of integers between 0 and MAX(SET)
 | STRING    | internalized, immutable strings which can be compared by reference for equality
 |====================================================
 
